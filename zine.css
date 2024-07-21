@@ -1,0 +1,60 @@
+/* Minimal CSS reset */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+/* Common styles: zine is a grid with some gap between pages */
+.zine { display: grid; padding: 1mm; gap: 2mm; }
+/* Pages are also 21x15 grids to roughly fit A4/Letter aspect ratio */
+.zine > * {
+	display: grid;
+	grid-template-columns: repeat(15, 5mm);
+	grid-template-rows: repeat(21, 5mm);
+	background-color: white;
+}
+
+@media (prefers-color-scheme: dark) { body { background-color: #424242; } }
+
+@media screen {
+	/* On screen all pages go vertically in the middle of the screen */
+	.zine {
+		grid-template-areas: "p1" "p2" "p3" "p4" "p5" "p6" "p7" "p8";
+		justify-items: center;
+		gap: 2rem;
+		margin: 2rem;
+	}
+	.zine::before {
+		font-family: system-ui, sans-serif;
+		content: "This is a micro-zine 🗞️. You can read it online, or 🖨️ print, ✂️ cut and 📃 fold it!";
+		/*position: fixed;*/
+		/*display: block;*/
+		/*right: 1rem;*/
+		/*top: 1rem;*/
+		/*width: 10rem;*/
+		padding: 1rem 2rem;
+		line-height: 2rem;
+		color: #828282;
+	}
+	/* Pages drop shadow to appear natural */
+	.zine > * {
+		border-radius: 2px;
+		box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	}
+}
+
+@media print {
+	/* 8-page zine should be printed in landscape mode with no additional margins */
+	@page { size: landscape; margin: 0; bleed: 0; }
+	/* Zine has strange page ordering to make folding possible */
+	.zine { width: 100vw; height: 100vh; grid-template-areas: "p5 p4 p3 p2" "p6 p7 p8 p1"; }
+	/* Some pages have to be flipped 180 degrees */
+	.zine > :nth-child(5), .zine > :nth-child(4), .zine > :nth-child(3), .zine > :nth-child(2) {
+		transform: rotate(180deg);
+	}
+	.zine :nth-child(1) { grid-area: p1; }
+	.zine :nth-child(2) { grid-area: p2; }
+	.zine :nth-child(3) { grid-area: p3; }
+	.zine :nth-child(4) { grid-area: p4; }
+	.zine :nth-child(5) { grid-area: p5; }
+	.zine :nth-child(6) { grid-area: p6; }
+	.zine :nth-child(7) { grid-area: p7; }
+	.zine :nth-child(8) { grid-area: p8; }
+}

@@ -1,0 +1,78 @@
+<svg width="84" height="248" viewBox="0 0 84 248" style="font-family: sans-serif; font-size: 11px;"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink">
+	<text id="startingFret" x="0" y="40" style="visibility: hidden;">1</text>
+	<g id="svgChord" transform="translate(9,24)">
+		<g id="strings" transform="translate(0,2)">
+			<rect height="200" width="2" x="0" fill="black"></rect>
+			<rect height="200" width="2" x="20" fill="black"></rect>
+			<rect height="200" width="2" x="40" fill="black"></rect>
+			<rect height="200" width="2" x="60" fill="black"></rect>
+		</g>
+		<g id="frets" transform="translate(0,2)">
+			<rect height="2" width="62" y="0" fill="black"></rect>
+			<rect height="2" width="62" y="20" fill="black"></rect>
+			<rect height="2" width="62" y="40" fill="black"></rect>
+			<rect height="2" width="62" y="60" fill="black"></rect>
+			<rect height="2" width="62" y="80" fill="black"></rect>
+			<rect height="2" width="62" y="100" fill="black"></rect>
+			<rect height="2" width="62" y="120" fill="black"></rect>
+			<rect height="2" width="62" y="140" fill="black"></rect>
+			<rect height="2" width="62" y="160" fill="black"></rect>
+			<rect height="2" width="62" y="180" fill="black"></rect>
+			<rect height="2" width="62" y="200" fill="black"></rect>
+		</g>
+		<g id="closedStrings" transform="translate(1,32)">
+			<g id="closedString0" transform="translate(0,20)" style="visibility: visible;">
+				<circle r="6"></circle>
+				<text fill="white" id="finger0" y="4" text-anchor="middle" >R</text>
+			</g>
+			<g id="closedString1" transform="translate(0,60)" style="visibility: visible;">
+				<circle r="6"></circle>
+				<text fill="white" id="finger1" y="4" text-anchor="middle"></text>
+			</g>
+			<g id="closedString1" transform="translate(0,100)" style="visibility: visible;">
+				<circle r="6"></circle>
+				<text fill="white" id="finger1" y="4" text-anchor="middle"></text>
+			</g>
+
+			<g id="closedString0" transform="translate(20,20)" style="visibility: visible;">
+				<circle r="6"></circle>
+				<text fill="white" id="finger0" y="4" text-anchor="middle" ></text>
+			</g>
+			<g id="closedString1" transform="translate(20,60)" style="visibility: visible;">
+				<circle r="6"></circle>
+				<text fill="white" id="finger1" y="4" text-anchor="middle"></text>
+			</g>
+			<g id="closedString1" transform="translate(20,120)" style="visibility: visible;">
+				<circle r="6"></circle>
+				<text fill="white" id="finger1" y="4" text-anchor="middle">R</text>
+			</g>
+
+			<g id="closedString0" transform="translate(40,20)" style="visibility: visible;">
+				<circle r="6"></circle>
+				<text fill="white" id="finger0" y="4" text-anchor="middle" ></text>
+			</g>
+			<g id="closedString1" transform="translate(40,60)" style="visibility: visible;">
+				<circle r="6"></circle>
+				<text fill="white" id="finger1" y="4" text-anchor="middle"></text>
+			</g>
+			<g id="closedString1" transform="translate(40,120)" style="visibility: visible;">
+				<circle r="6"></circle>
+				<text fill="white" id="finger1" y="4" text-anchor="middle"></text>
+			</g>
+
+			<g id="closedString0" transform="translate(60,20)" style="visibility: visible;">
+				<circle r="6"></circle>
+				<text fill="white" id="finger0" y="4" text-anchor="middle" ></text>
+			</g>
+			<g id="closedString1" transform="translate(60,80)" style="visibility: visible;">
+				<circle r="6"></circle>
+				<text fill="white" id="finger1" y="4" text-anchor="middle">R</text>
+			</g>
+		</g>
+	</g>
+</svg>
+
+
+

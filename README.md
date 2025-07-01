@@ -11,6 +11,7 @@ Examples (try printing them!):
 * [Ukulele](https://zserge.com/zine/ukulele/) - a helper book for all ukulele chords, fretboard map and common chord progressions.
 * [Mandolin](https://zserge.com/zine/mandolin) - a book with simple chords, movable chords, scales and other useful things.
 * [Irish Whistle](https://zserge.com/zine/tinwhistle) - a book of well-known tunes to practice tin whistle (Irish whistle).
+* [Toki Pona](https://zserge.com/zine/tokipona) - a book about minimalist constructed language with a vocabulary of 120 words.
 * [Hollow Men](https://zserge.com/zine/hollow-men/) - a poetry book with a Ukrainian translation of T.S. Eliot's ["Hollow Men"](https://allpoetry.com/the-hollow-men).
 
 ## How to write a zine?

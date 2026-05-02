@@ -13,6 +13,7 @@ Examples (try printing them!):
 * [Irish Whistle](https://zserge.com/zine/tinwhistle) - a book of well-known tunes to practice tin whistle (Irish whistle).
 * [Toki Pona](https://zserge.com/zine/tokipona) - a book about minimalist constructed language with a vocabulary of 120 words.
 * [Hollow Men](https://zserge.com/zine/hollow-men/) - a poetry book with a Ukrainian translation of T.S. Eliot's ["Hollow Men"](https://allpoetry.com/the-hollow-men).
+* [Join the Fediverse!](https://jointhefediverse.net/zine) - a micro-zine explaining [the fediverse](https://jointhefediverse.net/)
 
 ## How to write a zine?
 
